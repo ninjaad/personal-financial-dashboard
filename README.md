@@ -1,19 +1,32 @@
-# Personal-financial-dashboard
-📊 Personal Financial Dashboard
-A full-stack personal finance management application built with Spring Boot (Java) . This project helps users track income, expenses, and budgets with visual charts and summaries — ideal for organizing monthly finances and building savings habits.
+📊 Personal Financial Dashboard – Backend
+A backend REST API built with Spring Boot for a personal finance management system. It allows users to track transactions, set monthly budgets, and view financial summaries like total income, expenses, and balance.
 
 🔧 Tech Stack
-Backend: Spring Boot, Spring Data JPA, MySQL
+Language: Java
+
+Framework: Spring Boot
 
 Database: MySQL
 
-Tools: Maven, Lombok
+ORM: Spring Data JPA
+
+Tools: Lombok, Maven
 
 ✨ Features
-📌 Add, edit, delete transactions
+✅ Add, update, delete financial transactions
 
-📅 Filter by date, category, or type (income/expense)
+✅ Categorize transactions as income or expense
 
-💰 Dashboard view with total income, expenses & balance
+✅ Set monthly budgets per category
 
-🧾 Set monthly budgets and track usage by category
+✅ View dashboard summary:
+
+Total income
+
+Total expenses
+
+Monthly balance
+
+Expenses by category
+
+✅ Well-structured REST API ready for frontend integration
