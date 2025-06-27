@@ -65,7 +65,7 @@ public class DataSeeder {
 
             budgetRepo.saveAll(budgets);
 
-            System.out.println("🌱 Sample data inserted!");
+            System.out.println(" Sample data inserted!");
         };
     }
 }
