@@ -11,7 +11,6 @@ import java.time.LocalDate;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @Data
 @Entity
 public class Transaction {
